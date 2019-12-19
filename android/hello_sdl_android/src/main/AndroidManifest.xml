@@ -39,8 +39,7 @@
                 android:resource="@xml/accessory_filter" />
         </activity>
 
-        <service android:name="com.sdl.hellosdlandroid.SdlService" >
-        </service>
+        <service android:name="com.sdl.hellosdlandroid.SdlService" />
         <service
             android:name=".SdlRouterService"
             android:exported="true"
